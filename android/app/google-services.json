@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495805700014",
+    "project_id": "ecoyieldpro",
+    "storage_bucket": "ecoyieldpro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495805700014:android:f1220aa7165c643ed3da3f",
+        "android_client_info": {
+          "package_name": "com.example.ecoyieldpro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWgG2lL40LgLFio1x1NYyfG02wLCzx268"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
