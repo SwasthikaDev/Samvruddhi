@@ -11,7 +11,7 @@ class ChatScreen extends StatefulWidget {
 
 class _ChatScreenState extends State<ChatScreen> {
   List<types.Message> _messages = [];
-  final _user = const types.User(id: '82091008-a484-4a89-ae75-a22bf8d6f3ac');
+  final _user = const types.User(id: 'c');
   final _aiUser = const types.User(
     id: 'vriddhi-ai',
     firstName: 'Vriddhi',
@@ -28,7 +28,7 @@ class _ChatScreenState extends State<ChatScreen> {
   }
 
   void _initializeChat() {
-    const apiKey = 'AIzaSyDSyXSQDDTlRc8q6VngIarQEnyBtyU1c2E'; // Replace with your actual API key
+    const apiKey = ''; // Replace with your actual API key
     _model = GenerativeModel(model: 'gemini-pro', apiKey: apiKey);
     _chat = _model.startChat();
   }
